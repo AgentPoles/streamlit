@@ -28,7 +28,7 @@ with st.form('finder'):
                              'lagos island', 'oke afa', 'ifako', 'badagry', 'agbado ijaiye',
                              'satellite town', 'onikan'))
 
-    number_of_bedrooms = st.number_input('Number of Bedrooms', 1, 7, 1)
+    number_of_bedrooms = st.number_input('Number of Bedrooms', 1, 4, 1)
     number_of_bathrooms = st.number_input('Number of Bathrooms', 1, 7, 1)
     number_of_guest_toilet = st.number_input('Guest Toilets?', 1, 5, 1)
     number_of_parking_space = st.number_input('Parking Space?', 1, 4, 1)

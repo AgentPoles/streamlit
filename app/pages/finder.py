@@ -28,20 +28,6 @@ with st.form('finder'):
                              'lagos island', 'oke afa', 'ifako', 'badagry', 'agbado ijaiye',
                              'satellite town', 'onikan'))
 
-    district_list = ['lekki', 'victoria island', 'ojodu', 'yaba', 'surulere', 'ikoyi',
-                     'ajah', 'gbagada', 'ikeja', 'ketu ogudu', 'ikeja gra', 'ogba',
-                             'oshodi', 'ikotun', 'ketu shangisha', 'oregun', 'igando',
-                             'allen avenue', 'agege', 'isolo', 'mushin', 'apapa', 'ketu ikosi',
-                             'ikorodu', 'abule egba', 'oshodi ajao', 'ikeja adeniyi jones',
-                             'opebi', 'oniru', 'oshodi mafoluku', 'isolo jakande',
-                             'isolo ago palace', 'ejigbo', 'maryland', 'iju ishaga', 'festac',
-                             'agbara', 'alimosho', 'okota', 'iju  ', 'idimu', 'alagbado',
-                             'ketu ojota', 'irepo', 'iya ipaja', 'ijora ebute metta',
-                             'lagos island', 'oke afa', 'ifako', 'badagry', 'agbado ijaiye',
-                             'satellite town', 'onikan']
-
-    longitudes = ['6.4698° N', '6.4281° N', '6.6337° N', '6.5095° N']
-    latitudes = ['3.5852° E', '3.4219° E', '3.3573° E', '3.3711° E']
     number_of_bedrooms = st.number_input('Number of Bedrooms', 1, 7, 1)
     number_of_bathrooms = st.number_input('Number of Bathrooms', 1, 7, 1)
     number_of_guest_toilet = st.number_input('Guest Toilets?', 1, 5, 1)

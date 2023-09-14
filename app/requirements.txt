@@ -4,3 +4,6 @@ joblib==1.1.1
 streamlit_elements
 streamlit_extras
 scikit_learn==1.2.1
+xgboost
+matplotlib
+numpy

@@ -12,9 +12,9 @@ st.set_page_config(
     page_icon="🏠",
 )
 
-housing_encoder = joblib.load('./model/housing_encoder.pk1')
-district_encoder = joblib.load('./model/district_encoder.pk1')
-model = joblib.load('./model/price_model.joblib')
+housing_encoder = joblib.load('./app/model/housing_encoder.pk1')
+district_encoder = joblib.load('./app/model/district_encoder.pk1')
+model = joblib.load('./app/model/price_model.joblib')
 
 html = 'Illustration by <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a>'
 st.title('Tell My Rent')

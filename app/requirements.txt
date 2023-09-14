@@ -1,0 +1,5 @@
+streamlit==1.26.0
+pandas
+joblib
+streamlit_elements
+streamlit_extras

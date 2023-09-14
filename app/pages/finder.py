@@ -8,7 +8,7 @@ st.header('Estimate A Rent Price')
 
 st.write('Check what that dream house would cost you before speaking to an agent')
 
-with open("./css/style.css") as f:
+with open("./app/css/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 with st.form('finder'):

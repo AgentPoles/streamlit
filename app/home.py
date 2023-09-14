@@ -22,10 +22,10 @@ st.markdown(
     '### :blue[Tell My Rent] leverages the XGBoost Regression Algorithm to predict the Annual Rent of a House in Lagos Nigeria')
 
 
-with open("./css/style.css") as f:
+with open("./app/css/style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
     st.image(
-        "./img/estate.gif", width=400)
+        "./app/img/estate.gif", width=400)
 
     with elements("new_element"):
         st.markdown('<style>{}</style>'.format(f.read()),

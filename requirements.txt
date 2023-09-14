@@ -1,5 +1,6 @@
 streamlit==1.26.0
 pandas
-joblib
+joblib==1.1.1
 streamlit_elements
 streamlit_extras
+scikit_learn==1.2.1
